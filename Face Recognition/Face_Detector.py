@@ -22,7 +22,7 @@ while True:
 
     #Display the image with faces detected
     cv2.imshow('Alberto Ramos Face Detector', frame)
-    key = cv2.waitKey(1)
+    key = cv2.waitKey(1) #wait for 1ms to see if user presses button
 
     #stop is q is pressed
     if key == 81 or key == 113:
