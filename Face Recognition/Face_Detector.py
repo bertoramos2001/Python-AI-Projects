@@ -4,7 +4,7 @@ import cv2
 trained_face_data = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 #to capture video from webcam
-webcam = cv2.VideoCapture(0) # (0) means it uses the default system camera
+webcam = cv2.VideoCapture(0) # (0) means it uses the default system camera, if you put 'nameVideo.mp4', it reads from a video
 
 #iterate over the frames
 while True:
