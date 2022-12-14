@@ -11,12 +11,14 @@ In this program, we used the same library as before, but pre-trained to recogniz
 
 <br />
 <br />
+<br />
+<br />
 
 * How to run the programs:
 1. Download the repository
 2. Open the terminal and navigate to the folder where you downloaded the repository
 3. Run the command: python3 <name of the file>.py
-4. The program will start running and you will see the video stream with the shape recognition
+4. The program will start running and you will see the video stream with the shape recognition. Press Q if you would like to exit the program.
 
 * Requirements:
 1. Python 3
