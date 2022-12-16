@@ -29,8 +29,10 @@ while True:
 
         # Detect the smiles
         smiles = trained_smile_data.detectMultiScale(the_face_grayscale, scaleFactor=1.7, minNeighbors=20)
-        for (x2, y2, w2, h2) in smiles:
-            cv2.rectangle(the_face, (x2, y2), (x2+w2, y2+h2), (255, 0, 255), 5)
+        #for (x2, y2, w2, h2) in smiles:
+            #cv2.rectangle(the_face, (x2, y2), (x2+w2, y2+h2), (255, 0, 255), 5)
+        if len(smiles) > 0:
+            cv2.putText(frame, 'smiling', (x, y+h+40), fontScale=3, fontFace=cv2.FONT_HERSHEY_PLAIN, color=(0, 255, 0))
 
     # Show webcam footage
     cv2.imshow('Alberto Ramos Smile Detector', frame)
