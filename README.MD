@@ -9,6 +9,9 @@ Using the haarcascade face recognition pre-trained data, I was able to recognize
 ## 2. Car and Pedestrian Tracker
 In this program, we used the same library as before, but pre-trained to recognize cars and pedestrians. The program detects the cars and pedestrians in a video stream and draws a red rectangle around the cars and a green rectangle around the pedestrians.
 
+## 3. Smile Detector
+This program again uses then openCV library, but this time it is pre-trained to recognize smiles. The program first detects the faces, draws a rectagle around them and then searchs inside that rectangle for a smile. If it finds a smile, it writes "smiling" below the face.
+
 <br />
 <br />
 <br />
@@ -23,4 +26,4 @@ In this program, we used the same library as before, but pre-trained to recogniz
 * Requirements:
 1. Python 3
 2. OpenCV
-3. TensorFlow (only for the last project)
+3. Numpy
